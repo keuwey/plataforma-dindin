@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*
+
+Aconselhado não usar o 'absolute' para o posicionamento
+pois prejudica na responsividade.
+
+*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 103px 20px 82px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.itens {
+    padding: 0px 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #FDFDFD;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #FDFDFD;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #102868;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.itens-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cursos {
+    padding: 81px 0px 0px 82px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+}
+
+.educacao {
+    padding: 0px 0px 0px 82px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+}
+
+.ilustra-poupando {
+    padding: 95px 0px 0px 112px;
+}
+
+.investimento-ini {
+    padding: 116px 0px 0px 53px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.div1 {
+    display: flex;
+}
+
+.titulo-parag {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-div1 {
+    padding: 31px 0px 0px 53px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.texto-button {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button {
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border-radius: 62px;
+}
+
+.div-button {
+    padding: 53px 0px 0px 53px;
+}
+
+.curso1 {
+    padding: 0px 0px 68px 0px;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+}
+
+.ilustra-investimento {
+    padding: 107px 0px 0px 112px;
+}
+
+.curso2 {
+    padding: 0px 0px 93px 0px;
+    display: flex;
+}
+
+.curso3 {
+    padding: 0px 0px 202px 0px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background: #2E948A;
+}
+
+.div-logo-footer {
+    padding: 53px 0px 53px 128px;
+}
+
+.cbc {
+    padding: 0px 0px 0px 400px;
+    list-style: none;
+}
+
+.links-footer {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.div-buttons-footer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-button-prof1 {
+    padding: 0px 0px 13px 550px;
+}
+
+.button-footer{
+    width: 289px;
+    height: 51px;
+    background: #2E948A;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+}
+
+.texto-button-footer1 {
+    padding: 11px 30px 11px 30px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.div-button-prof2 {
+    padding: 0px 0px 0px 550px;
+}
+
+.texto-button-footer2 {
+    padding: 11px 30px 11px 30px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+body section div div button a:hover {
+    text-decoration: none;
+}
+
+body footer div div button a:hover {
+    text-decoration: none;
+}
+
+body footer div div button:hover {
+    background: #FFFFFF;
+    transition: 10ms;
+}
+
+body footer div div button a p:hover {
+    color: #2E948A;
+}
+
+body footer div div button a:hover {
+    text-decoration: none;
+}

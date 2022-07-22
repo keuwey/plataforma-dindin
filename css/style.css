@@ -1,0 +1,576 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 103px 20px 82px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.itens-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: #FDFDFD;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #FDFDFD;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+    color: #102868;
+    transition: 10ms;
+}
+
+body section div button:hover {
+    background: #FF4081;
+    transition: 10ms;
+}
+
+body section div button a p:hover {
+    color: #FFFFFF;
+}
+
+footer div li a:hover {
+    text-decoration: underline;
+    color: #102868;
+    transition: 10ms;
+}
+
+footer div div button:hover {
+    background: #FFFFFF;
+    transition: 10ms;
+}
+
+footer div div button a p:hover {
+    color: #2E948A;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.itens {
+    padding: 0px 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    list-style: none;
+}
+
+.banner {
+    padding: 110px 0px 66px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.texto-banner {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+}
+
+.texto-motivador {
+    padding: 20px 0px 30px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+}
+
+.botao {
+    font-style: normal;
+    width: 268px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    box-sizing: border-box;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    transition: 0.3s;
+    background-color: white;
+}
+
+.saber-mais{
+    padding: 8.3px 26px 8.3px 26px;
+    color: #FF4081;
+}
+
+.cara-meditando {
+    padding: 110px 70px 35px 35px;
+}
+
+.texto-banner-div {
+    padding: 0px 70px 35px 400px;
+}
+
+.cursos{
+    /* padding: 66px 0px 0px 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #F7F7F7;
+    max-height: 730px;
+}
+
+.imagens-cursos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 109px 0px 0px 0px;
+}
+
+.titulos-cursos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.invest-ini {
+    padding: 45px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.poupando {
+    padding: 45px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.independencia {
+    padding: 45px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.textos-cursos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textos {
+    padding: 23px 0px 0px 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.botoes-div {
+    padding: 26px 0px 117px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botoes {
+    width: 233px;
+    height: 51px;
+    background: #FF4081;
+    border-radius: 62px;
+}
+
+.comecar {
+    padding: 11px 8px 11px 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.titulo-depo {
+    padding: 119px 0px 0px 128px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+}
+
+.wally-icon {
+    padding: 78px 28px 86px 128px;
+}
+
+.wally-pai {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.depoi-wally, .depoi-jaden, .depoi-janes, .depoi-whoopi{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.nome-wally, .nome-jaden, .nome-whoopi, .nome-janes {
+    padding: 11px 0px 0px 0px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.jaden-pai {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 300px;
+}
+
+.wally-jaden {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.jaden-icon {
+    padding: 78px 28px 91px 0px;
+}
+
+.whoopi-icon {
+    padding: 0px 23px 0px 128px;
+}
+
+.whoopi-pai {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.whoopi-janes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.janes-icon {
+    padding: 0px 23px 0px 300px;
+}
+
+.janes-pai {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.depoimentos {
+    padding: 0px 0px 155px 0px;
+}
+
+.blog {
+    background: #E5E5E5;
+}
+
+.titulo-blog {
+    padding: 91px 0px 73px 128px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+}
+
+.posts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.receita {
+    padding: 11px 0px 0px 0px;
+    color: #009688;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+}
+
+.titulos-receitas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-receita {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.button {
+    width: 289px;
+    height: 51px;
+    box-sizing: border-box;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+}
+
+.todos-os-posts {
+    padding: 10px 31px 10px 31px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+}
+
+.div-button {
+    padding: 101px 0px 53px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background: #2E948A;
+}
+
+.div-logo-footer {
+    padding: 53px 0px 53px 128px;
+}
+
+.cbc {
+    padding: 0px 0px 0px 400px;
+    list-style: none;
+}
+
+.links-footer {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.texto-button-footer1 {
+    padding: 11px 30px 11px 30px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.texto-button-footer2 {
+    padding: 11px 30px 11px 30px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button-footer{
+    width: 289px;
+    height: 51px;
+    background: #2E948A;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+}
+
+.div-button-prof1 {
+    padding: 0px 0px 13px 550px;
+}
+
+.div-button-prof2 {
+    padding: 0px 0px 0px 550px;
+}
+
+.div-buttons-footer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1 {
+    padding: 45px 0px 0px 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+
+}
+
+.p2 {
+    padding: 23px 0px 26px 0px;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.p3 {
+    padding: 11px 8px 11px 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.div {
+    padding: 109px 0px 119px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto-banner {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .texto-banner-div {
+        padding: 50px 0px 0px 0px;
+    }
+    .texto-motivador {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;  
+    }
+    .botao {
+        width: 214px;
+        height: 35px;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .saber-mais {
+        padding: 4px 10px 2px 10px;
+    }
+    .cara-meditando {
+        width: 371px;
+        height: 381px;
+    }
+    .cursos {
+        padding: 1000px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .p1 {
+        padding: 15px 0px 0px 0px;
+    }
+    .depoimentos {
+        padding: 690px 0px 0px 0px;
+    }
+    .titulo-depo {
+        padding: 170px 0px 0px 20px;
+    }
+    .wally-jaden {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .wally-pai {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .wally-icon {
+        padding: 0px 0px 0px 0px;
+    }
+    .depoi-wally{
+        padding: 15px 0px 0px 0px;
+    }
+    .jaden-pai {
+        display: flex;
+        flex-direction: column;
+    }
+    .jaden-icon {
+        padding: 0px 300px 0px 0px;
+    }
+    .depoi-jaden {
+
+        padding: 15px 0px 0px 0px;
+    }
+}

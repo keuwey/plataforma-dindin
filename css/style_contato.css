@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 103px 20px 82px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.itens-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens {
+    padding: 0px 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #FDFDFD;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #FDFDFD;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #102868;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* .form {
+    padding: 44px 0px 0px 136px;
+    width: 493px;
+    height: 32px;
+} */
+
+.contato {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+    padding: 0px 0px 44px 0px;
+}
+
+#nome {
+    min-height: 32px;
+    min-width: 493px;
+    padding-left: 31px;
+    border-radius: 7px;
+}
+
+input, textarea {
+    max-width: 493px;
+    border: 1px solid #686868;
+}
+
+form, textarea {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 4px;
+    align-items: center;
+    text-transform: lowercase;
+    color: #58555D;
+}
+
+#email {
+    min-height: 32px;
+    min-width: 493px;
+    margin: 15px 0 14px 0;
+    padding-left: 31px;
+    border-radius: 7px;
+}
+
+#text {
+    min-height: 193px;
+    min-width: 493px;
+    resize: none;
+    padding-top: 15px;
+    padding-left: 31px;
+    border-radius: 7px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.paragrafo {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+#button {
+    background: #FF4081;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    padding: 5px 30px;
+}
+
+.ilustra-contato {
+    padding: 60px 0px 0px 430px;
+}
+
+#section {
+    padding: 70px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background: #2E948A;
+}
+
+.div-logo-footer {
+    padding: 53px 0px 53px 128px;
+}
+
+.cbc {
+    padding: 0px 0px 0px 400px;
+    list-style: none;
+}
+
+.links-footer {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.div-buttons-footer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-button-prof1 {
+    padding: 0px 0px 13px 550px;
+}
+
+.button-footer{
+    width: 289px;
+    height: 51px;
+    background: #2E948A;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+}
+
+.texto-button-footer1 {
+    padding: 11px 30px 11px 30px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.div-button-prof2 {
+    padding: 0px 0px 0px 550px;
+}
+
+.texto-button-footer2 {
+    padding: 11px 30px 11px 30px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer div li a:hover {
+    text-decoration: underline;
+    color: #102868;
+    transition: 10ms;
+}
+
+footer div div button:hover {
+    background: #FFFFFF;
+    transition: 10ms;
+}
+
+footer div div button a p:hover {
+    color: #2E948A;
+}
+
+footer div div button a:hover {
+    text-decoration: none;
+}
+
+body section div form div button a:hover{
+    text-decoration: none;
+}
