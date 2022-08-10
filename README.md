@@ -19,13 +19,16 @@ Então faça:
   Entre no diretório do arquivo
   Clique no index.html
 ```
-## Autor
-
-- [@keuwey](https://www.github.com/keuwey)
-
-
 ## Screenshots
 
 ![Site Screenshot](img/print1.png)
+
+
+
 ![Site Screenshot](img/print2.png)
+
+
+## Autor
+
+- [@keuwey](https://www.github.com/keuwey)
 
