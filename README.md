@@ -1,11 +1,11 @@
-
 # Plataforma DINDIN
 
 Plataforma de ensino voltada à educação financeira
 
 Este projeto é um hands-on que foi realizado durante o curso da Gama Academy e serviu como método avaliativo.
 
-Ainda se faz necessário realizar a parte da responsividade do site.
+*Ainda se faz necessário realizar a parte da responsividade do site.*
+
 ## COMO USAR
 
 Para testar este projeto na sua máquina, primeiro clone este repositório:
@@ -23,12 +23,8 @@ Então faça:
 
 ![Site Screenshot](img/print1.png)
 
-
-
 ![Site Screenshot](img/print2.png)
-
 
 ## Autor
 
-- [@keuwey](https://www.github.com/keuwey)
-
+[Kevin Halley](https://www.github.com/keuwey)
