@@ -145,7 +145,6 @@ a:active {
 
 .p1 {
     padding: 45px 0px 0px 0px;
-    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
@@ -157,7 +156,6 @@ a:active {
 .p2 {
     padding: 23px 0px 26px 0px;
     text-align: center;
-    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
@@ -274,7 +272,6 @@ a:active {
 
 .titulo-blog {
     padding: 91px 0px 73px 128px;
-    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 37px;
@@ -297,7 +294,6 @@ a:active {
 .receita {
     padding: 11px 0px 0px 0px;
     color: #009688;
-    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 27px;
@@ -305,7 +301,6 @@ a:active {
 }
 
 .texto-receita {
-    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -330,7 +325,6 @@ a:active {
 
 .todos-os-posts {
     padding: 10px 31px 10px 31px;
-    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -361,7 +355,6 @@ a:active {
 }
 
 .links-footer {
-    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -392,7 +385,6 @@ a:active {
 
 .texto-button-footer1 {
     padding: 11px 30px 11px 30px;
-    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -403,7 +395,6 @@ a:active {
 
 .texto-button-footer2 {
     padding: 11px 30px 11px 30px;
-    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
