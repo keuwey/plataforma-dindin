@@ -81,10 +81,9 @@ a:active {
 }
 
 .banner {
-    padding: 110px 0px 66px 0px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 .texto-banner {
@@ -128,10 +127,6 @@ a:active {
     padding: 110px 70px 35px 35px;
 }
 
-.texto-banner-div {
-    padding: 0px 70px 35px 400px;
-}
-
 .cursos{
     display: flex;
     align-items: center;
@@ -140,21 +135,17 @@ a:active {
     max-height: 730px;
 }
 
-.imagens-cursos {
+.div {
+    padding: 109px 0px 119px 0px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    padding: 109px 0px 0px 0px;
+    justify-content: center;
 }
 
-.titulos-cursos {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.invest-ini {
+.p1 {
     padding: 45px 0px 0px 0px;
+    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
@@ -163,47 +154,15 @@ a:active {
     color: #FF4081;
 }
 
-.poupando {
-    padding: 45px 0px 0px 0px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
+.p2 {
+    padding: 23px 0px 26px 0px;
     text-align: center;
-    color: #FF4081;
-}
-
-.independencia {
-    padding: 45px 0px 0px 0px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    text-align: center;
-    color: #FF4081;
-}
-
-.textos-cursos {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.textos {
-    padding: 23px 0px 0px 20px;
+    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
-    text-align: center;
     color: #000000;
-}
-
-.botoes-div {
-    padding: 26px 0px 117px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .botoes {
@@ -213,7 +172,7 @@ a:active {
     border-radius: 62px;
 }
 
-.comecar {
+.p3 {
     padding: 11px 8px 11px 8px;
     font-style: normal;
     font-weight: 400;
@@ -222,8 +181,12 @@ a:active {
     color: #FFFFFF;
 }
 
+.depoimentos {
+    padding: 0px 0px 155px 0px;
+}
+
 .titulo-depo {
-    padding: 119px 0px 0px 128px;
+    padding: 50px 0px 50px 128px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -232,14 +195,20 @@ a:active {
     color: #009688;
 }
 
-.wally-icon {
-    padding: 78px 28px 86px 128px;
+.wally-jaden {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .wally-pai {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+.wally-icon {
+    padding: 0px 28px 0px 0px;
 }
 
 .depoi-wally, .depoi-jaden, .depoi-janes, .depoi-whoopi{
@@ -265,47 +234,38 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 0px 0px 0px 300px;
-}
-
-.wally-jaden {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 .jaden-icon {
-    padding: 78px 28px 91px 0px;
+    padding: 0px 28px 0px 0px;
 }
 
-.whoopi-icon {
-    padding: 0px 23px 0px 128px;
+.whoopi-janes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .whoopi-pai {
+    padding: 50px 0px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.whoopi-janes {
+.whoopi-icon {
+    padding: 0px 28px 0px 0px;
+}
+
+.janes-pai {
+    padding: 50px 0px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
 .janes-icon {
-    padding: 0px 23px 0px 300px;
-}
-
-.janes-pai {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.depoimentos {
-    padding: 0px 0px 155px 0px;
+    padding: 0px 28px 0px 0px;
 }
 
 .blog {
@@ -328,6 +288,12 @@ a:active {
     justify-content: space-around;
 }
 
+.titulos-receitas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .receita {
     padding: 11px 0px 0px 0px;
     color: #009688;
@@ -338,12 +304,6 @@ a:active {
     line-height: 31px;
 }
 
-.titulos-receitas {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .texto-receita {
     font-family: 'Ubuntu';
     font-style: normal;
@@ -351,6 +311,13 @@ a:active {
     font-size: 18px;
     line-height: 20px;
     color: #000000;
+}
+
+.div-button {
+    padding: 101px 0px 53px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button {
@@ -371,26 +338,26 @@ a:active {
     color: #FF4081;
 }
 
-.div-button {
-    padding: 101px 0px 53px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .footer {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     background: #2E948A;
 }
 
 .div-logo-footer {
-    padding: 53px 0px 53px 128px;
+    padding: 53px 0px 53px 0px;
 }
 
 .cbc {
-    padding: 0px 0px 0px 400px;
     list-style: none;
+}
+
+.ul-cbc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .links-footer {
@@ -400,6 +367,27 @@ a:active {
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
+    list-style: none;
+}
+
+.div-buttons-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-button-prof1 {
+    padding-bottom: 20px;
+}
+
+.button-footer{
+    width: 289px;
+    height: 51px;
+    background: #2E948A;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
 }
 
 .texto-button-footer1 {
@@ -422,68 +410,4 @@ a:active {
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
-}
-
-.button-footer{
-    width: 289px;
-    height: 51px;
-    background: #2E948A;
-    box-sizing: border-box;
-    border: 2px solid #FFFFFF;
-    border-radius: 62px;
-}
-
-.div-button-prof1 {
-    padding: 0px 0px 13px 550px;
-}
-
-.div-button-prof2 {
-    padding: 0px 0px 0px 550px;
-}
-
-.div-buttons-footer {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.p1 {
-    padding: 45px 0px 0px 0px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    text-align: center;
-    color: #FF4081;
-
-}
-
-.p2 {
-    padding: 23px 0px 26px 0px;
-    text-align: center;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 20px;
-    color: #000000;
-}
-
-.p3 {
-    padding: 11px 8px 11px 8px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.div {
-    padding: 109px 0px 119px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
