@@ -51,21 +51,6 @@ body section div button a p:hover {
     color: #FFFFFF;
 }
 
-footer div li a:hover {
-    text-decoration: underline;
-    color: #102868;
-    transition: 10ms;
-}
-
-footer div div button:hover {
-    background: #FFFFFF;
-    transition: 10ms;
-}
-
-footer div div button a p:hover {
-    color: #2E948A;
-}
-
 a:active {
     text-decoration: none;
 }
@@ -391,4 +376,19 @@ a:active {
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+}
+
+footer div li a:hover {
+    text-decoration: underline;
+    color: #102868;
+    transition: 10ms;
+}
+
+footer div div button:hover {
+    background: #FFFFFF;
+    transition: 10ms;
+}
+
+footer div div button a p:hover {
+    color: #2E948A;
 }
