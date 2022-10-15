@@ -378,7 +378,7 @@ a:active {
     color: #FFFFFF;
 }
 
-footer div li a:hover {
+footer div ul li a:hover {
     text-decoration: underline;
     color: #102868;
     transition: 10ms;
