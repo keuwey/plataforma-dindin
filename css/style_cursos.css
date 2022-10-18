@@ -3,14 +3,8 @@
     border: 0px;
     padding: 0px;
     font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
 }
-
-/*
-
-Aconselhado não usar o 'absolute' para o posicionamento
-pois prejudica na responsividade.
-
-*/
 
 .header {
     display: flex;
@@ -23,7 +17,6 @@ pois prejudica na responsividade.
 
 .itens {
     padding: 0px 10px;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
@@ -64,8 +57,6 @@ a:active {
 
 .cursos {
     padding: 81px 0px 0px 82px;
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
@@ -75,8 +66,6 @@ a:active {
 
 .educacao {
     padding: 0px 0px 0px 82px;
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -89,8 +78,6 @@ a:active {
 
 .investimento-ini {
     padding: 116px 0px 0px 53px;
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 40px;
@@ -108,8 +95,6 @@ a:active {
 
 .texto-div1 {
     padding: 31px 0px 0px 53px;
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
@@ -117,8 +102,6 @@ a:active {
 }
 
 .texto-button {
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -162,36 +145,42 @@ a:active {
 .footer {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     background: #2E948A;
 }
 
 .div-logo-footer {
-    padding: 53px 0px 53px 128px;
+    padding: 53px 0px 53px 0px;
 }
 
 .cbc {
-    padding: 0px 0px 0px 400px;
     list-style: none;
 }
 
+.ul-cbc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .links-footer {
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
+    list-style: none;
 }
 
 .div-buttons-footer {
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .div-button-prof1 {
-    padding: 0px 0px 13px 550px;
+    padding-bottom: 20px;
 }
 
 .button-footer{
@@ -203,25 +192,8 @@ a:active {
     border-radius: 62px;
 }
 
-.texto-button-footer1 {
+.texto-button-footer {
     padding: 11px 30px 11px 30px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.div-button-prof2 {
-    padding: 0px 0px 0px 550px;
-}
-
-.texto-button-footer2 {
-    padding: 11px 30px 11px 30px;
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;

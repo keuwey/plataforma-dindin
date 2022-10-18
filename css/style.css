@@ -3,6 +3,7 @@
     border: 0px;
     padding: 0px;
     font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
 }
 
 .header {
@@ -57,7 +58,6 @@ a:active {
 
 .itens {
     padding: 0px 10px;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
@@ -72,7 +72,6 @@ a:active {
 }
 
 .texto-banner {
-    font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
@@ -81,7 +80,6 @@ a:active {
 
 .texto-motivador {
     padding: 20px 0px 30px 0px;
-    font-style: normal;
     font-weight: 400;
     font-size: 27px;
     line-height: 31px;
@@ -89,7 +87,6 @@ a:active {
 }
 
 .botao {
-    font-style: normal;
     width: 268px;
     height: 51px;
     font-weight: 400;
@@ -130,7 +127,6 @@ a:active {
 
 .p1 {
     padding: 45px 0px 0px 0px;
-    font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 29px;
@@ -141,7 +137,6 @@ a:active {
 .p2 {
     padding: 23px 0px 26px 0px;
     text-align: center;
-    font-style: normal;
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
@@ -157,7 +152,6 @@ a:active {
 
 .p3 {
     padding: 11px 8px 11px 8px;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
@@ -171,7 +165,6 @@ a:active {
 .titulo-depo {
     padding: 50px 0px 50px 128px;
     font-family: 'Nunito', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 37px;
     line-height: 50px;
@@ -196,7 +189,6 @@ a:active {
 
 .depoi-wally, .depoi-jaden, .depoi-janes, .depoi-whoopi{
     font-family: 'Nunito';
-    font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
@@ -206,7 +198,6 @@ a:active {
 .nome-wally, .nome-jaden, .nome-whoopi, .nome-janes {
     padding: 11px 0px 0px 0px;
     font-family: 'Nunito';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -257,7 +248,6 @@ a:active {
 
 .titulo-blog {
     padding: 91px 0px 73px 128px;
-    font-style: normal;
     font-weight: 700;
     font-size: 37px;
     line-height: 43px;
@@ -279,14 +269,12 @@ a:active {
 .receita {
     padding: 11px 0px 0px 0px;
     color: #009688;
-    font-style: normal;
     font-weight: 700;
     font-size: 27px;
     line-height: 31px;
 }
 
 .texto-receita {
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
@@ -310,7 +298,6 @@ a:active {
 
 .todos-os-posts {
     padding: 10px 31px 10px 31px;
-    font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
@@ -340,7 +327,6 @@ a:active {
 }
 
 .links-footer {
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -370,7 +356,6 @@ a:active {
 
 .texto-button-footer {
     padding: 11px 30px 11px 30px;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;

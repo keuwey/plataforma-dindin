@@ -3,6 +3,7 @@
     border: 0px;
     padding: 0px;
     font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
 }
 
 .header {
@@ -28,7 +29,6 @@
 
 .itens {
     padding: 0px 10px;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
@@ -56,7 +56,6 @@ a:active {
 }
 
 .p1 {
-    font-style: normal;
     font-weight: 700;
     font-size: 55px;
     line-height: 63px;
@@ -65,7 +64,6 @@ a:active {
 
 .p2 {
     padding: 22px 0px 0px 0px;
-    font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
@@ -88,7 +86,6 @@ iframe {
 }
 
 .p3 {
-    font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 40px;
@@ -97,7 +94,6 @@ iframe {
 
 .p4 {
     padding: 26px 0px 0px 0px;
-    font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
@@ -133,8 +129,6 @@ iframe {
 }
 
 .links-footer {
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -163,8 +157,6 @@ iframe {
 
 .texto-button-footer1 {
     padding: 11px 30px 11px 30px;
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -178,8 +170,6 @@ iframe {
 
 .texto-button-footer2 {
     padding: 11px 30px 11px 30px;
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;

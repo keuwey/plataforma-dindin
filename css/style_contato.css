@@ -3,6 +3,7 @@
     border: 0px;
     padding: 0px;
     font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
 }
 
 .header {
@@ -28,7 +29,6 @@
 
 .itens {
     padding: 0px 10px;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
@@ -62,8 +62,6 @@ a:active {
 } */
 
 .contato {
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 46px;
@@ -85,7 +83,6 @@ input, textarea {
 
 form, textarea {
     font-family: 'Nunito';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 4px;
@@ -115,7 +112,6 @@ form, textarea {
 
 .paragrafo {
     font-family: 'Nunito';
-    font-style: normal;
     font-weight: 800;
     font-size: 16px;
     line-height: 22px;
@@ -166,7 +162,6 @@ form, textarea {
 }
 
 .links-footer {
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -196,7 +191,6 @@ form, textarea {
 
 .texto-button-footer {
     padding: 11px 30px 11px 30px;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
