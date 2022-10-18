@@ -113,19 +113,25 @@ iframe {
 }
 
 .footer {
-    padding: 2px 0px 0px 0px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     background: #2E948A;
 }
 
 .div-logo-footer {
-    padding: 53px 0px 53px 128px;
+    padding: 53px 0px 53px 0px;
 }
 
 .cbc {
-    padding: 0px 0px 0px 400px;
     list-style: none;
+}
+
+.ul-cbc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .links-footer {
@@ -133,17 +139,18 @@ iframe {
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
+    list-style: none;
 }
 
 .div-buttons-footer {
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .div-button-prof1 {
-    padding: 0px 0px 13px 550px;
+    padding-bottom: 20px;
 }
 
 .button-footer{
@@ -155,20 +162,7 @@ iframe {
     border-radius: 62px;
 }
 
-.texto-button-footer1 {
-    padding: 11px 30px 11px 30px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.div-button-prof2 {
-    padding: 0px 0px 0px 550px;
-}
-
-.texto-button-footer2 {
+.texto-button-footer {
     padding: 11px 30px 11px 30px;
     font-weight: 400;
     font-size: 20px;
@@ -179,6 +173,12 @@ iframe {
 
 body footer div div button a:hover {
     text-decoration: none;
+}
+
+footer div ul li a:hover {
+    text-decoration: underline;
+    color: #102868;
+    transition: 10ms;
 }
 
 body footer div div button:hover {
