@@ -1,10 +1,8 @@
-# Plataforma DINDIN
+# DINDIN Platform
 
-Plataforma de ensino voltada à educação financeira
+Teaching platform focused on financial education. This project is a hands-on that was carried out during the Gama Academy course and served as an evaluation method.
 
-Este projeto é um hands-on que foi realizado durante o curso da Gama Academy e serviu como método avaliativo.
-
-*Ainda se faz necessário realizar a parte da responsividade do site.*
+*It is still necessary to carry out the part of the responsiveness of the pages.*
 
 ## Screenshots
 
@@ -14,6 +12,7 @@ Este projeto é um hands-on que foi realizado durante o curso da Gama Academy e 
 
 ![Site Screenshot](img/print3.png)
 
-## Autor
+## Technologies used
 
-[Kevin Halley](https://www.github.com/keuwey)
+- HTML
+- CSS
