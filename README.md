@@ -4,6 +4,10 @@ Teaching platform focused on financial education. This project is a hands-on tha
 
 *It is still necessary to carry out the part of the responsiveness of the pages.*
 
+## Deploy
+
+You can access this web site [here](https://keuwey.github.io/plataforma-dindin/)
+
 ## Screenshots
 
 ![Site Screenshot](img/print1.png)
